@@ -9,16 +9,16 @@ int main(void)
 	int age;
 
 	// Get name input
-	print("What is your name: ");
+	printf("What is your name: ");
 	scanf("%s", input_name);
 
 
 	// Get age input
-	prinf("What is your age: ");
+	printf("What is your age: ");
 	scanf("%s", age_stp);
 
 	// Convert the string to an int
-	age = atio(age_atp);
+	age = atoi(age_stp);
 
 	// Print out results
 	printf("%s is %d years old. \n", input_name, age);
